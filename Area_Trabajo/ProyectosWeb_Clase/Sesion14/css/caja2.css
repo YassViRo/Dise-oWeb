@@ -1,0 +1,5 @@
+#caja{
+    margin:20px; /*(Es el espacio) cambiar a 20px*/
+    padding:10px; /*cambiar a 10px */
+    background-color: aquamarine;
+}
