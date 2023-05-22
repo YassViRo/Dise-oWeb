@@ -1,0 +1,57 @@
+body{
+    background-color: palegoldenrod;
+
+#titulo{
+    background-color: white;
+    color:darkblue;
+    border:1px;
+    font-family: Arial;
+    text-align: center;
+}
+
+#imagen{
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    top: 45px;
+    left: 88%;
+}
+
+#indice{
+    background-color: white;
+}
+
+#t_datos{
+    background-color: lime;
+    height: 100%;
+    width: 100%;
+}
+
+.td_tablas{
+    text-align: right;
+}
+
+#perfil{
+    background-color: greenyellow;
+    width: 100%;
+    height: 100%;
+}
+
+#experiencia{
+    background-color: lightpink;
+    width: 100%;
+    height: 100%;
+}
+
+#habilidades{
+    background-color: khaki;
+    width: 100%;
+    height: 100%;
+}
+
+#educacion{
+    background-color: mediumspringgreen;
+    width: 100%;
+    height: 100%;
+}
+
