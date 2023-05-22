@@ -1,0 +1,32 @@
+body{
+    text-align: center;
+    background-color: aquamarine;
+}
+
+#indice{
+    background-color: white;
+}
+
+#t_datos{
+    background-color: darkseagreen;
+}
+
+#perfil{
+    background-color: darkorange;
+}
+
+#experiencia{
+    background-color: floralwhite;
+}
+
+#habilidades{
+    background-color: khaki;
+}
+
+#educacion{
+    background-color: gold;
+}
+
+.tabla{
+    font-family: Lucida Sans;
+}

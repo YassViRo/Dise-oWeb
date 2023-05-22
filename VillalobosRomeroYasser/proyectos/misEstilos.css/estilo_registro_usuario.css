@@ -1,0 +1,12 @@
+body{
+    text-align: center;
+    background-color: cornsilk;
+}
+
+
+fieldset{
+    width:625px;
+    height:350px;
+    background-color: antiquewhite;
+    margin: auto;
+}

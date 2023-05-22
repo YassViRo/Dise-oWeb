@@ -1,0 +1,72 @@
+body{
+    background-color: aquamarine;
+}
+
+#formulario{
+    background-color: aqua;
+    width: 500px;
+    position: absolute;
+    left: 35%;
+    top:20%;
+}
+
+.titulo2{
+    text-align: center;
+}
+fieldset{
+    text-align: center;
+}
+
+.campos{
+    margin:2%;
+}
+
+#indice{
+    background-color: aquamarine;
+    height: 300px;
+}
+#navegacion{
+    margin-top: 10px;
+    height: 40px;
+    width: 100%;
+    text-align: center;
+}
+
+#navegacion li{
+    display: inline-block;
+}
+
+#navegacion li a{
+    text-decoration: none;
+    padding: 6px;
+}
+
+#imagen{
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 15px;
+    left: 90%;
+    border-style: double;
+}
+
+.titulo{
+    background-color: aquamarine;
+    color:darkblue;
+    border:1px;
+    font-family: Arial;
+    text-align: center;
+    margin: 0;
+}
+
+.nombre_enlace{
+    display: block;
+    text-decoration: none;
+    color:blue;
+    text-align: center;
+}
+
+#contactanos{
+    position: absolute;
+    top:60%;
+}

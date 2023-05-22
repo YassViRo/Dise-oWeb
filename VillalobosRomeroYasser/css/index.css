@@ -1,0 +1,133 @@
+body{
+    background-color: palegoldenrod;
+}
+
+.titulo{
+    background-color: white;
+    color:darkblue;
+    border:1px;
+    font-family: Arial;
+    text-align: center;
+    margin: 0;
+}
+
+#imagen{
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 15px;
+    left: 90%;
+    border-style: double;
+}
+
+#titulo_pagina{
+background-color: aliceblue;
+border-style:double ;
+}
+
+#navegacion{
+    float:left;
+    margin-top: 10px;
+    height: 40px;
+    width: 100%;
+}
+
+#navegacion li{
+    display: inline-block;
+}
+
+#navegacion li a{
+    text-decoration: none;
+    padding: 6px;
+}
+
+#indice{
+    background-color: white;
+    height: 120px;
+}
+
+#contenido{
+    background-color: aqua;
+    border-style: double;
+    height: 205px;
+}
+
+#enlaces{
+    float:right;
+    background-color: darksalmon;
+    position: absolute;
+    top:255px;
+    right:9px;
+    height: 205px;
+    width: 300px;
+    border-style: double;
+}
+
+#pie_pagina{
+    border-style: double;
+    background-color: darkolivegreen;
+}
+
+.nombre_enlace{
+    display: block;
+    text-decoration: none;
+    color:blue;
+    text-align: center;
+}
+
+.titulos{
+    margin:9px;
+}
+
+.texto{
+    margin:9px;
+}
+
+#youtube{
+    height: 150px;
+    position: absolute;
+    top:230px;
+    left:1000px;
+}
+
+#facebook{
+    height: 100px;
+    position: absolute;
+    top:350px;
+    left:1080px;
+}
+
+.enlaces2{
+    text-decoration: none;
+    color:white;
+    font-family: Arial;
+}
+
+.titulos2{
+    font-family: Georgia;
+    color:gold;
+}
+
+.border{
+    border-style: double;
+    background-color: darkcyan;
+}
+#datos, #menu, #redes{
+    float:left;
+}
+
+#datos{
+    width: 30%;
+    height: 200px;
+}
+
+#menu{
+    width: 50%;
+    height: 200px;
+}
+
+#redes{
+    width: 18%;
+    height: 200px;
+}
+

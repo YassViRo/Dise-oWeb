@@ -1,0 +1,36 @@
+body{
+    background-color: aquamarine;
+}
+
+#empresa{
+   text-align: center; 
+}
+
+#tabla1{
+    width: 700px;
+    height: 150px;
+    margin:auto;
+    background-color: cyan;
+    border-style: outset;
+    border-top-width: 5px;
+    border-right-width: 5px;
+    border-left-width: 5px;
+    border-bottom-width: 5px;
+}
+
+#imagen{
+    height: 150px;
+    display:block;
+    margin:auto;
+    border-style: outset;
+    border-top-width: 10px;
+    border-right-width: 10px;
+    border-left-width: 10px;
+    border-bottom-width: 10px;
+}
+
+.interior_tabla{
+    color:blue;
+    font-family: Segoe UI;
+}
+

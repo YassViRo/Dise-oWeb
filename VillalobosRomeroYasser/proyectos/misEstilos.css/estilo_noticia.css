@@ -1,0 +1,74 @@
+body{
+    margin:0px;
+} 
+
+#menu{
+    background-color: red;
+    height: 120px;
+}
+
+
+#titulo{
+    text-align: center;
+    color:White;
+    width: 100%;
+    font-family: Arial;
+    font-size: 50px;
+    margin-top: 0px;
+}
+
+
+#cuadro{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top:25px;
+    left:300px;
+}
+
+#cuadro span{
+    display: block;
+    background: white;
+    width: 100%;
+    height: 4px;
+    margin-top: 6px;
+    cursor: pointer;
+}
+
+#navegacion{
+    background-color: gray;
+    float:left;
+    margin-top: -34px;
+    height: 40px;
+    width: 100%;
+}
+
+#navegacion li{
+    display: inline-block;
+}
+
+#navegacion li a{
+    text-decoration: none;
+    padding: 6px;
+}
+
+.nombre_nav{
+    color: white;
+}
+
+#contenido{
+    font-family: Franklin;
+}
+
+#imagen{
+    float:right;
+    width: 550px;
+    height: 300px;
+    margin:20px
+}
+
+#pie{
+    float:right;
+    background-color:red;
+    color:white;
+}

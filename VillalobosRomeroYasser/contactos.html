@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/contactos.css">
+    <title>Contactos</title>
+</head>
+<body>
+    <header id="indice">
+        <h1 class="titulo">YASSER ALDAIR, VILLALOBOS ROMERO</h1>
+        <h2 class="titulo">Mi web personal</h2>
+        <img src="img/alumno.jpg" alt="Imagen" title="Estudiante" id="imagen">
+
+    
+        <nav id="navegacion">
+            <ul>
+                <li><a href="index.html" class="nombre_enlace">Inicio</a></li>
+                <li><a href="proyectos/1.Curriculum.html" class="nombre_enlace">Curriculum</a></li>
+                <li><a href="proyectos.html" class="nombre_enlace">Proyectos</a></li>
+                <li><a href="contactos.html" class="nombre_enlace">Contactos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+
+    <div id="formulario">
+        <form action="data.php">
+            <fieldset>
+                <h1 class="titulo2">Enviar información personal</h1>          
+                <div id="datos">
+                    <input type="text" placeholder="Nombres" class="campos">
+                    <input type="text" placeholder="Apellidos" class="campos">
+                    <input type="text" placeholder="example@gmail.com" class="campos">
+                    <input type="text" placeholder="Número celular" maxlength="9" class="campos">
+                    <textarea name="argumento" id="textarea" cols="50" rows="8" placeholder="Mensaje"></textarea><br>
+                    <input type="button" value="Enviar" class="btn">
+                    <input type="button" value="Limpiar formulario" class="btn">
+                </div>
+            </fieldset>
+        </form>
+    </div>
+    <img src="img/contactanos.png" alt="" id="contactanos">
+</body>
+</html>

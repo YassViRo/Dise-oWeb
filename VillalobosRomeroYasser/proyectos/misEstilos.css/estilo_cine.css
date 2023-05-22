@@ -1,0 +1,70 @@
+body{
+    background-color: beige;
+}
+
+#imagen_premio{
+    float:left;
+    width: 480px;
+    height: 800px;
+    border-style: double;
+}
+
+#usuario{
+    width: 180px;
+    height: 150x;
+    float:right;
+}
+
+#pelicula{
+    width:150px;
+    float:right;
+}
+
+#ojo{
+    width: 150px;
+    float:right;
+}
+
+
+#botones{
+    float:right;
+}
+
+#datos_personales{
+    background-color: azure;
+    color:blue;
+}
+
+#mejor_pelicula{
+    background-color: honeydew;
+    color:darkgreen;
+}
+
+#peliculas_no_viste{
+    background-color: gainsboro;
+    color:brown;
+}
+
+#grupo_argumento{
+    background-color: floralwhite;
+    color:black;
+}
+
+.titulo{
+    font-family: Impact;
+    font-size: 30px;
+}
+
+.texto{
+    font-family:Georgia;
+    font-size:20px;
+    color:darkblue;
+    font-weight: lighter;
+}
+
+.btn{
+    padding:15px 30px;
+    background-color: gold;
+    font-family: Georgia;
+    font-size:25px;
+}
