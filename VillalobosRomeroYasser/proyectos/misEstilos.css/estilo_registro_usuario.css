@@ -10,3 +10,10 @@ fieldset{
     background-color: antiquewhite;
     margin: auto;
 }
+
+#imagen{
+    position: absolute;
+    top: 45%;
+    height: 400px;
+    left:735px;
+}

@@ -16,6 +16,7 @@ body{
     position: absolute;
     top: 45px;
     left: 88%;
+    border-style: double;
 }
 
 #indice{

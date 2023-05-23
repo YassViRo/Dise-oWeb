@@ -1,6 +1,5 @@
 body{
-    text-align: center;
-    background-color: aquamarine;
+    background-color: khaki;
 }
 
 #indice{
@@ -8,24 +7,33 @@ body{
 }
 
 #t_datos{
-    background-color: darkseagreen;
-    
+    background-color: aqua;
+    height: 200px;
+    width: 700px;
 }
 
 #perfil{
-    background-color: darkorange;
+    background-color: beige;
+    height: 200px;
+    width: 700px;
 }
 
 #experiencia{
-    background-color: floralwhite;
+    background-color: gold;
+    height: 200px;
+    width: 700px;
 }
 
 #habilidades{
-    background-color: khaki;
+    background-color: floralwhite;
+    height: 200px;
+    width: 700px;
 }
 
 #educacion{
-    background-color: gold;
+    background-color: pink;
+    height: 200px;
+    width: 700px;
 }
 
 .tabla{
@@ -57,7 +65,7 @@ body{
 
 #navegacion{
     position: absolute;
-    left:500px;
+    left:1300px;
     margin-top: 10px;
     height: 40px;
     width: 100%;
@@ -77,4 +85,43 @@ body{
     text-decoration: none;
     color:blue;
     text-align: center;
+}
+
+.imagen_tabla{
+    margin: 1px;
+}
+
+#img_datos{
+    position: absolute;
+    top:140px;
+    height: 300px;
+    left:1450px;
+}
+
+#img_perfil{
+    position: absolute;
+    top:385px;
+    height: 320px;
+    left:1450px;
+}
+
+#img_exp{
+    position: absolute;
+    top:670px;
+    height: 280px;
+    left:1480px;
+}
+
+#img_hab{
+    position: absolute;
+    top:955px;
+    height: 250px;
+    left:1480px;
+}
+
+#img_edu{
+    position: absolute;
+    top:1210px;
+    height: 280px;
+    left:1480px;
 }
