@@ -26,7 +26,8 @@ border-style:double ;
 }
 
 #navegacion{
-    float:left;
+    position: absolute;
+    left:1300px;
     margin-top: 10px;
     height: 40px;
     width: 100%;

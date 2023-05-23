@@ -9,6 +9,7 @@ body{
 
 #t_datos{
     background-color: darkseagreen;
+    
 }
 
 #perfil{
@@ -29,4 +30,51 @@ body{
 
 .tabla{
     font-family: Lucida Sans;
+}
+
+#indice{
+    background-color: white;
+    height: 120px;
+}
+
+.titulo{
+    background-color: white;
+    color:darkblue;
+    border:1px;
+    font-family: Arial;
+    text-align: center;
+    margin: 0;
+}
+
+#imagen{
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 15px;
+    left: 90%;
+    border-style: double;
+}
+
+#navegacion{
+    position: absolute;
+    left:500px;
+    margin-top: 10px;
+    height: 40px;
+    width: 100%;
+}
+
+#navegacion li{
+    display: inline-block;
+}
+
+#navegacion li a{
+    text-decoration: none;
+    padding: 6px;
+}
+
+.nombre_enlace{
+    display: block;
+    text-decoration: none;
+    color:blue;
+    text-align: center;
 }

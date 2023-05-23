@@ -2,11 +2,6 @@ body{
     background-color: blanchedalmond;
     text-align: center;
 }
-.titulo{
-    text-align: center;
-    color:red;
-    font-family: Cambria;
-}
 
 .titulo2{
     text-align: center;
@@ -32,10 +27,30 @@ body{
 
 #indice{
     background-color: white;
-    height: 300px;
+    height: 120px;
 }
+
+.titulo{
+    background-color: white;
+    color:darkblue;
+    border:1px;
+    font-family: Arial;
+    text-align: center;
+    margin: 0;
+}
+
+#imagen{
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 15px;
+    left: 90%;
+    border-style: double;
+}
+
 #navegacion{
-    float:left;
+    position: absolute;
+    left:500px;
     margin-top: 10px;
     height: 40px;
     width: 100%;
@@ -49,11 +64,10 @@ body{
     text-decoration: none;
     padding: 6px;
 }
-#imagen{
-    height: 100px;
-    width: 100px;
-    position: absolute;
-    top: 15px;
-    left: 90%;
-    border-style: double;
+
+.nombre_enlace{
+    display: block;
+    text-decoration: none;
+    color:blue;
+    text-align: center;
 }

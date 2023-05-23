@@ -21,24 +21,23 @@ fieldset{
     margin:2%;
 }
 
+#contactanos{
+    position: absolute;
+    top:60%;
+}
+
 #indice{
-    background-color: aquamarine;
-    height: 300px;
+    background-color: white;
+    height: 120px;
 }
-#navegacion{
-    margin-top: 10px;
-    height: 40px;
-    width: 100%;
+
+.titulo{
+    background-color: white;
+    color:darkblue;
+    border:1px;
+    font-family: Arial;
     text-align: center;
-}
-
-#navegacion li{
-    display: inline-block;
-}
-
-#navegacion li a{
-    text-decoration: none;
-    padding: 6px;
+    margin: 0;
 }
 
 #imagen{
@@ -50,13 +49,21 @@ fieldset{
     border-style: double;
 }
 
-.titulo{
-    background-color: aquamarine;
-    color:darkblue;
-    border:1px;
-    font-family: Arial;
-    text-align: center;
-    margin: 0;
+#navegacion{
+    position: absolute;
+    left:1300px;
+    margin-top: 10px;
+    height: 40px;
+    width: 100%;
+}
+
+#navegacion li{
+    display: inline-block;
+}
+
+#navegacion li a{
+    text-decoration: none;
+    padding: 6px;
 }
 
 .nombre_enlace{
@@ -64,9 +71,4 @@ fieldset{
     text-decoration: none;
     color:blue;
     text-align: center;
-}
-
-#contactanos{
-    position: absolute;
-    top:60%;
 }
