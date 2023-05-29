@@ -1,0 +1,12 @@
+.bloque{
+    background-color: aqua;
+    color:green;
+    font-size: 20px;
+    margin:5px;
+    height: 200px;
+    width: 200px;
+}
+
+li{
+    margin-top:15px;
+}
