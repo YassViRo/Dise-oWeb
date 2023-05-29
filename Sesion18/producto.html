@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="css/producto.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos</title>
+</head>
+<body>
+    <h1>Selecciona un producto</h1>
+    <select id="productoSelect" onchange="mostrarDescripcion()">
+        <option value="">Seleccionar</option>
+        <option value="laptop">Laptop</option>
+        <option value="telefono">Smartphone</option>
+        <option value="tablet">Tablet</option>
+    </select>
+
+    <div>
+        <img id="productoImagen">
+        <p id="productoDescripcion"></p>
+    </div>
+    <script src="js/producto.js"></script>
+</body>
+</html>
