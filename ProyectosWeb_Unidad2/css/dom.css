@@ -1,0 +1,57 @@
+body{
+    background-color: lightgoldenrodyellow;
+}
+
+.titulo1{
+    color:blue;
+    text-align: center;
+    font-size: 40px;
+    font-family: Georgia;
+}
+
+.titulo2{
+    color:blue;
+    clear:left;
+}
+
+hr{
+    clear:left;
+}
+
+.lista{
+    font-size: 20px;
+    font-family: Arial;
+    margin:40px;
+}
+
+#contenedorA{
+    float:right;
+    position: absolute;
+    top:190px;
+    left:400px;
+}
+
+#contenedorB{
+    float:right;
+    position: absolute;
+    top:250px;
+    left:400px;
+}
+
+#contenedorC{
+    float:right;
+    position: absolute;
+    top:310px;
+    left:400px;
+}
+
+.titulo4{
+    font-family: Arial;
+    height: 30px;
+    float:left;
+    width: 100px;
+}
+
+#resultado1, #resultado2, #resultado3{
+    margin:10px;
+}
