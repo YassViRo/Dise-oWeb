@@ -1,0 +1,32 @@
+.datosEntrada{
+    width: 40%;
+    margin: auto;
+    background-color: lightcyan;
+    font-family: Arial;
+    padding-left:10px;
+}
+
+span{
+    width: 100px;
+    display: block;
+    float:left;
+    padding-left: 4px;
+}
+
+.nom{
+    background-color: darkgrey;
+}
+
+.titu{
+    background-color: aqua;
+}
+
+li{
+    list-style:none;
+    margin-top: 1px;
+}
+
+ul{
+    margin:0px;
+    padding-left:0px;
+}
