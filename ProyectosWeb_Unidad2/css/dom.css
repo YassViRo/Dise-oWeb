@@ -23,6 +23,10 @@ hr{
     font-family: Arial;
     margin:40px;
 }
+#tabla{
+    width: 80%;
+    height: 150px;
+}
 
 #contenedorA{
     float:right;
@@ -37,14 +41,12 @@ hr{
     top:250px;
     left:400px;
 }
-
 #contenedorC{
     float:right;
     position: absolute;
     top:310px;
     left:400px;
 }
-
 .titulo4{
     font-family: Arial;
     height: 30px;
@@ -54,4 +56,7 @@ hr{
 
 #resultado1, #resultado2, #resultado3{
     margin:10px;
+}
+#total{
+    width: 10%;
 }

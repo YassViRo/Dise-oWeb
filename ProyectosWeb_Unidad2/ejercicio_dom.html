@@ -10,9 +10,9 @@
 <body>
 
     <h1 class="titulo1">DOM</h1>
-    <h2 class="titulo2">Productos</h2>
     <hr>
 
+    <h2 class="titulo2">Productos</h2>
 
 
     <ul id="lista_productos">
@@ -21,72 +21,63 @@
 
 
     <div id="contenedorA">
-        <button class="btnA">Aumentar</button>
-        <button class="btnD">Disminuir</button>
+        <button class="btnA">Añadir al carrito</button>
+        <button class="btnD">Quitar del carrito</button>
     </div>
 
     <div id="contenedorB">
-        <button class="btnA">Aumentar</button>
-        <button class="btnD">Disminuir</button>
+        <button class="btnA">Añadir al carrito</button>
+        <button class="btnD">Quitar del carrito</button>
     </div>
 
     <div id="contenedorC">
-        <button class="btnA">Aumentar</button>
-        <button class="btnD">Disminuir</button>
+        <button class="btnA">Añadir al carrito</button>
+        <button class="btnD">Quitar del carrito</button>
     </div>
     <hr>
-
-
-    <h2 class="titulo2">Cantidades del producto</h2>
-
-    <h4 class="titulo4">A: <span id="resultado1">0</span></h4>
-    <h4 class="titulo4">B: <span id="resultado2">0</span></h4>
-    <h4 class="titulo4">C: <span id="resultado3">0</span></h4>
-
-    <hr>
-
-
-    <h2 class="titulo2">Total a pagar</h2>
-    <table border="1" id="tabla">
+    <h2 class="titulo2">Carrito de compras</h2>
+    <table border="2" id="tabla">
         <thead>
             <tr>
-                <th>Producto</th>
-                <th>Precio</th>
-                <th>SubTotal</th>
-                <th>Total</th>
+                <th >Producto</th>
+                <th >Precio</th>
+                <th >Cantidad</th>
+                <th >SubTotal</th>
             </tr>
         </thead>
-
-        <tfoot>
-            <tr>
-                <td colspan="5">Total a pagar:</td>
-                <td>x</td>
-            </tr>
-        </tfoot>
-
         <tbody>
             <tr>
                 <th>A</th>
+                <th id="precio1">0</th>
+                <th id="cantidad1">0</th>
+                <th id="subtotal1">0</th>
             </tr>
             <tr>
                 <th>B</th>
+                <th id="precio2"  >0</th>
+                <th id="cantidad2">0</th>
+                <th id="subtotal2">0</th>
             </tr>
             <tr>
                 <th>C</th>
+                <th id="precio3">0</th>
+                <th id="cantidad3">0</th>
+                <th id="subtotal3">0</th>
             </tr>
         </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3">Total a pagar:</td>
+                <td id="total">0.0</td>
+            </tr>
+        </tfoot>
     </table>
-
-
-
-
 
     <template id="template_item">
         <li class="lista">
             <b>Nombre:</b> <span class="productos">${item}</span>
         </li>
     </template>
-
     <script src="js/dom.js"></script>
 </body>
 </html>
