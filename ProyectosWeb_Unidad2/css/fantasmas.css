@@ -1,0 +1,328 @@
+.fantasma1{
+    background-color: aqua;
+    color:white;
+    padding: .2rem .3rem 1rem .3rem;
+    position: absolute;
+    border-radius: 2rem 2rem 0 0;
+    animation: animar_fantasma1;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+
+
+
+@keyframes animar_fantasma1{
+    0%{
+        left:50%;
+        top:50%;
+        transform: translate(-50%,-50%);
+        background-color: aqua;
+    }
+
+    10%{
+        left: 58rem;
+        top: 22rem;
+        background-color: aqua;
+    }
+
+    20%{
+        left: 40rem;
+        top: 21rem;
+        background-color: aqua;
+    }
+
+    30%{
+        left: 40rem;
+        top: 37rem;
+        background-color: aqua;
+    }
+
+    40%{
+        left: 8rem;
+        top: 37em;
+        background-color: aqua;
+    }
+
+    50%{
+        left: 8rem;
+        top: 43rem;
+        background-color: aqua;
+    }
+
+    60%{
+        left: 15rem;
+        top: 43rem;
+        background-color: aqua;
+    }
+
+    70%{
+        left: 15rem;
+        top: 48rem;
+        background-color: aqua;
+    }
+
+    80%{
+        left: 28rem;
+        top: 48rem;
+        background-color: aqua;
+    }
+
+    90%{
+        left: 28rem;
+        top: 43rem;
+        background-color: aqua;
+    }
+
+    100%{
+        left: 50rem;
+        top: 43rem;
+        background-color: black;
+    } 
+}
+
+.fantasma2{
+    background-color: red;
+    color:white;
+    padding: .2rem .3rem 1rem .3rem;
+    position: absolute;
+    border-radius: 2rem 2rem 0 0;
+    animation: animar_fantasma2;
+    animation-duration: 25s;
+    animation-iteration-count: infinite;
+}
+
+
+
+@keyframes animar_fantasma2{
+    0%{
+        left:50%;
+        top:50%;
+        transform: translate(-50%,-50%);
+        background-color: red;
+    }
+
+    10%{
+        left: 58rem;
+        top: 22rem;
+        background-color: red;
+    }
+
+    20%{
+        left: 76rem;
+        top: 22rem;
+        background-color: red;
+    }
+
+    30%{
+        left: 76rem;
+        top: 27rem;
+        background-color: red;
+    }
+
+    40%{
+        left: 87rem;
+        top: 27em;
+        background-color: red;
+    }
+
+    50%{
+        left: 87rem;
+        top: 3rem;
+        background-color: red;
+    }
+
+    60%{
+        left: 110rem;
+        top: 3rem;
+        background-color: red;
+    }
+
+    70%{
+        left: 110rem;
+        top: 10rem;
+        background-color: red;
+    }
+
+    80%{
+        left: 87rem;
+        top: 10rem;
+        background-color: red;
+    }
+
+    90%{
+        left: 87rem;
+        top: 42rem;
+        background-color: red;
+    }
+
+    100%{
+        left: 65rem;
+        top: 42rem;
+        background-color: black;
+    } 
+}
+
+.fantasma3{
+    background-color: red;
+    color:white;
+    padding: .2rem .3rem 1rem .3rem;
+    position: absolute;
+    border-radius: 2rem 2rem 0 0;
+    animation: animar_fantasma3;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+}
+
+
+
+@keyframes animar_fantasma3{
+    0%{
+        left:50%;
+        top:50%;
+        transform: translate(-50%,-50%);
+        background-color: pink;
+    }
+
+    10%{
+        left: 58rem;
+        top: 22rem;
+        background-color: pink;
+    }
+
+    20%{
+        left: 52rem;
+        top: 22rem;
+        background-color: pink;
+    }
+
+    30%{
+        left: 52rem;
+        top: 16rem;
+        background-color: pink;
+    }
+
+    40%{
+        left: 40rem;
+        top: 16em;
+        background-color: pink;
+    }
+
+    50%{
+        left: 40rem;
+        top: 10rem;
+        background-color: pink;
+    }
+
+    60%{
+        left: 27rem;
+        top: 10rem;
+        background-color: pink;
+    }
+
+    70%{
+        left: 27rem;
+        top: 43rem;
+        background-color: pink;
+    }
+
+    80%{
+        left: 88rem;
+        top: 43rem;
+        background-color: pink;
+    }
+
+    90%{
+        left: 87rem;
+        top: 26rem;
+        background-color: pink;
+    }
+
+    100%{
+        left: 75rem;
+        top: 26rem;
+        background-color: black;
+    } 
+}
+
+
+.fantasma4{
+    background-color: greenyellow;
+    color:white;
+    padding: .2rem .3rem 1rem .3rem;
+    position: absolute;
+    border-radius: 2rem 2rem 0 0;
+    animation: animar_fantasma4;
+    animation-duration: 35s;
+    animation-iteration-count: infinite;
+}
+
+
+
+@keyframes animar_fantasma4{
+    0%{
+        left:50%;
+        top:50%;
+        transform: translate(-50%,-50%);
+        background-color: greenyellow;
+    }
+
+    10%{
+        left: 58rem;
+        top: 22rem;
+        background-color: greenyellow;
+    }
+
+    20%{
+        left: 65rem;
+        top: 22rem;
+        background-color: greenyellow;
+    }
+
+    30%{
+        left: 65rem;
+        top: 16rem;
+        background-color: greenyellow;
+    }
+
+    40%{
+        left: 75rem;
+        top: 16em;
+        background-color: greenyellow;
+    }
+
+    50%{
+        left: 75rem;
+        top: 10rem;
+        background-color: greenyellow;
+    }
+
+    60%{
+        left: 88rem;
+        top: 10rem;
+        background-color: greenyellow;
+    }
+
+    70%{
+        left: 88rem;
+        top: 48rem;
+        background-color: greenyellow;
+    }
+
+    80%{
+        left: 108rem;
+        top: 48rem;
+        background-color: greenyellow;
+    }
+
+    90%{
+        left: 108rem;
+        top: 54rem;
+        background-color: greenyellow;
+    }
+
+    100%{
+        left: 40rem;
+        top: 54rem;
+        background-color: black;
+    } 
+}
