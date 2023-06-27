@@ -5,7 +5,7 @@
     position: absolute;
     border-radius: 2rem 2rem 0 0;
     animation: animar_fantasma1;
-    animation-duration: 20s;
+    animation-duration: 18s;
     animation-iteration-count: infinite;
 }
 
@@ -169,7 +169,7 @@
     position: absolute;
     border-radius: 2rem 2rem 0 0;
     animation: animar_fantasma3;
-    animation-duration: 30s;
+    animation-duration: 23s;
     animation-iteration-count: infinite;
 }
 
@@ -232,14 +232,14 @@
     }
 
     90%{
-        left: 87rem;
-        top: 26rem;
+        left: 88rem;
+        top: 43rem;
         background-color: pink;
     }
 
     100%{
         left: 75rem;
-        top: 26rem;
+        top: 43rem;
         background-color: black;
     } 
 }
@@ -252,7 +252,7 @@
     position: absolute;
     border-radius: 2rem 2rem 0 0;
     animation: animar_fantasma4;
-    animation-duration: 35s;
+    animation-duration: 38s;
     animation-iteration-count: infinite;
 }
 

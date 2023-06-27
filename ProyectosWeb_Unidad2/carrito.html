@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/carrito.css">
+    <title>Carrito de compras</title>
+</head>
+<body>
+    <h1>Carrito de Compras</h1>
+
+    <div class="producto">
+        <img src="img/Mouse.jfif" alt="Producto 1">
+        <div class="producto-info">
+          <h3>Mouse Logitech</h3>
+          <p>Precio: $10</p>
+          <input type="number" id="producto1" value="0">
+        </div>
+      </div>
+
+    <div class="producto">
+        <img src="img/Audifonos.jfif" alt="Producto 2">
+        <div class="producto-info">
+          <h3>Audífonos Logitech</h3>
+          <p>Precio: $15</p>
+          <input type="number" id="producto2" value="0">
+        </div>
+    </div>
+
+    <div class="producto">
+        <img src="img/Alfombra.jfif" alt="Producto 3">
+        <div class="producto-info">
+          <h3>Alfombra Logitech</h3>
+          <p>Precio: $30</p>
+          <input type="number" id="producto3" value="0">
+        </div>
+    </div>
+      
+
+  <h2>Total: $<span id="total">0</span></h2>
+
+  <div id="botones">
+    <button id="guardarDatos">Guardar Datos</button>
+    <button id="recuperarDatos">Recuperar Datos</button>
+    <button id="eliminarDatos">Eliminar Datos</button>
+    <button id="actualizarDatos">Actualizar Datos</button>
+  </div>
+
+  <script src="js/carrito.js"></script>
+</body>
+</html>

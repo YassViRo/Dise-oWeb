@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Tienda Modals</title>
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
 </head>
 
 <body>
@@ -93,7 +94,7 @@
                             </ul>
                         </li>
                     </ul>
-                        <!--colocar menu en vertical
+                    <!--colocar menu en vertical
                     https://getbootstrap.com/docs/5.3/components/navs-tabs/#vertical -->
                 </div>
             </div>
@@ -119,7 +120,13 @@
                         <form class="d-flex" role="search">
                             <input class="form-control me-2" type="search" placeholder="Buscar producto"
                                 aria-label="search">
-                            <button class="btn btn-outline-success" type="submit"><i class="fa fa-search"></i></button>
+                            <button class="btn btn-outline-success" type="submit">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-search" viewBox="0 0 16 16">
+                                    <path
+                                        d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+                                </svg>
+                            </button>
                         </form>
                     </div>
 
@@ -135,38 +142,41 @@
     </div>
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     <!-- Barra de navegación -->
     <div class="container-fluid">
-        <div class="row px-xl-5 d-flex">
+        <div class="row">
             <div class="col-lg-2 d-none d-lg-block">
-                <!--agregar un dropdown simple - dropdown link
-                    https://getbootstrap.com/docs/5.3/components/dropdowns/#single-button -->
-
-
-                <nav class="navbar navbar-expand-lg bg-body-tertiary">
-                    <div class="container-fluid">
-                        <div class="dropdown">
-                            <button class="btn btn-secondary dropdown-toggle bg-primary" type="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
-                                Categorias
-                            </button>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                <li><a class="dropdown-item" href="#">Another action</a></li>
-                                <li><a class="dropdown-item" href="#">Something else here</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </nav>
-
-
+                <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        Categorías
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Hombre</a></li>
+                        <li><a class="dropdown-item" href="#">Mujer</a></li>
+                        <li><a class="dropdown-item" href="#">Niño</a></li>
+                    </ul>
+                </div>
             </div>
             <div class="col-lg-10">
-                <!-- agregar nav bar, uno con dropdown
-                    https://getbootstrap.com/docs/5.3/components/navbar/#nav -->
-                <nav class="navbar navbar-expand-lg bg-body-tertiary bg-dark">
+                <nav class="navbar navbar-expand-lg bg-body-tertiary">
                     <div class="container-fluid">
-                        <a class="navbar-brand" href="#">Navbar</a>
+                        <a class="navbar-brand" href="#">Inicio</a>
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                             data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
                             aria-label="Toggle navigation">
@@ -175,35 +185,63 @@
                         <div class="collapse navbar-collapse" id="navbarNav">
                             <ul class="navbar-nav">
                                 <li class="nav-item">
-                                    <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                                    <a class="nav-link active" aria-current="page" href="#">Acerca de...</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Tienda</a>
+                                    <a class="nav-link" href="#">Facturas</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Mis pàginas</a>
+                                    <a class="nav-link" href="#">Marcas</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link disabled">Contexto</a>
+                                    <a class="nav-link disabled">Disabled</a>
                                 </li>
                             </ul>
                         </div>
                     </div>
                 </nav>
-
-                <!-- cambiar barra a fondo negro
-                    https://getbootstrap.com/docs/5.3/components/navbar/#color-schemes -->
-
-                <!-- al final agregar los badges, dentro del Nav. no agregar en boton, sino en un div
-                     https://getbootstrap.com/docs/5.3/components/badge/ -->
-
-                <!-- cambiar el color del boton
-                     https://getbootstrap.com/docs/5.3/components/buttons/ -->
-
             </div>
         </div>
-
+        <div class="row bg-black">
+            <div class="col-lg-12">
+                <div class="d-flex justify-content-end">
+                    <h5 class="text-light">Opciones
+                        <span class="badge bg-secondary">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-balloon-heart-fill" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd"
+                                    d="M8.49 10.92C19.412 3.382 11.28-2.387 8 .986 4.719-2.387-3.413 3.382 7.51 10.92l-.234.468a.25.25 0 1 0 .448.224l.04-.08c.009.17.024.315.051.45.068.344.208.622.448 1.102l.013.028c.212.422.182.85.05 1.246-.135.402-.366.751-.534 1.003a.25.25 0 0 0 .416.278l.004-.007c.166-.248.431-.646.588-1.115.16-.479.212-1.051-.076-1.629-.258-.515-.365-.732-.419-1.004a2.376 2.376 0 0 1-.037-.289l.008.017a.25.25 0 1 0 .448-.224l-.235-.468ZM6.726 1.269c-1.167-.61-2.8-.142-3.454 1.135-.237.463-.36 1.08-.202 1.85.055.27.467.197.527-.071.285-1.256 1.177-2.462 2.989-2.528.234-.008.348-.278.14-.386Z" />
+                            </svg>
+                        </span>
+                    </h5>
+                </div>
+            </div>
+        </div>
     </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     <!-- Carousel -->
     <div class="container-fluid my-3">
@@ -211,18 +249,98 @@
             <div class="col-lg-8">
                 <!-- insertar carousel caption 
                 https://getbootstrap.com/docs/5.3/components/carousel/#captions -->
-
+                <div id="carouselExampleCaptions" class="carousel slide">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="img/Tienda.jpg" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>First slide label</h5>
+                                <p>Some representative placeholder content for the first slide.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/Tienda2.jpg" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Second slide label</h5>
+                                <p>Some representative placeholder content for the second slide.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/Tienda3.jpg" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Third slide label</h5>
+                                <p>Some representative placeholder content for the third slide.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
             </div>
             <div class="col-lg-4">
                 <!-- insertar un Card
                 https://getbootstrap.com/docs/5.3/components/card/#example -->
 
+                <div class="card" style="width: 18rem;">
+                    <img src="img/Mujeres.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Ofertas</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
                 <!-- Hacer que elementos se sobrepongan
                 https://getbootstrap.com/docs/5.3/components/card/#image-overlays -->
+                <div class="card text-bg-dark">
+                    <img src="img/Mujer2.jpg" class="card-img" alt="...">
+                    <div class="card-img-overlay">
+                        <h5 class="card-title">Ofertas</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                            additional content. This content is a little bit longer.</p>
+                        <p class="card-text"><small>Last updated 3 mins ago</small></p>
+                    </div>
+                </div>
 
             </div>
         </div>
     </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
     <!-- Presentación -->
@@ -231,19 +349,91 @@
             <div class="col-sm-6 col-md-3">
                 <!-- insertar tarjetas horizontales, editar img por font awesome
                 https://getbootstrap.com/docs/5.3/components/card/#horizontal -->
+                <div class="card mb-3" style="max-width: 540px;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="img/Check.jpg" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Alta calídad</h5>
+                                <p class="card-text"></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
 
             </div>
             <div class="col-sm-6 col-md-3">
+                <div class="card mb-3" style="max-width: 540px;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="img/Envío.jpg" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Entrega gratis</h5>
+                                <p class="card-text"></p>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
             </div>
             <div class="col-sm-6 col-md-3">
+                <div class="card mb-3" style="max-width: 540px;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="img/Flechas.jpg" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Devoluciones</h5>
+                                <p class="card-text"></p>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
             </div>
             <div class="col-sm-6 col-md-3">
-
+                <div class="card mb-3" style="max-width: 540px;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="img/Teléfono.jpg" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Soporte técnico</h5>
+                                <p class="card-text"></p>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
     <!-- Productos -->
@@ -251,10 +441,52 @@
         <!-- insertar caja con borde inferior para el título.
             https://getbootstrap.com/docs/5.3/utilities/borders/#color -->
 
-        <div class="row px-xl-5">
             <!-- insertar 8 card grid. el que tiene espacio para un footer. ,  
                 https://getbootstrap.com/docs/5.3/components/card/#grid-cards -->
 
+                <div class="row row-cols-1 row-cols-md-2 g-4">
+                    <div class="col">
+                      <div class="card">
+                        <img src="img/Celular.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">POCO es una marca de teléfonos inteligentes que se ha destacado por ofrecer dispositivos de alta calidad a precios asequibles. Con una amplia gama de modelos, POCO ha logrado captar la atención de los consumidores que buscan un equilibrio entre rendimiento y costo.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card">
+                        <img src="img/Computadora.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">RX Windforce es un equipo diseñado especialmente para satisfacer las necesidades de los amantes de los videojuegos. Con un potente hardware y capacidades gráficas de última generación, ofrece un rendimiento excepcional para disfrutar de una experiencia de juego inmersiva.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card">
+                        <img src="img/Computadora.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">RX Windforce es un equipo diseñado especialmente para satisfacer las necesidades de los amantes de los videojuegos. Con un potente hardware y capacidades gráficas de última generación, ofrece un rendimiento excepcional para disfrutar de una experiencia de juego inmersiva.
+
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card">
+                        <img src="img/Zapatillas.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">RX Windforce es un equipo diseñado especialmente para satisfacer las necesidades de los amantes de los videojuegos. Con un potente hardware y capacidades gráficas de última generación, ofrece un rendimiento excepcional para disfrutar de una experiencia de juego inmersiva.
+
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
             <!-- agregar botón tipo enlace dentro del card
                 https://getbootstrap.com/docs/5.3/components/buttons/#button-tags -->
 
@@ -267,13 +499,98 @@
 
         <!-- insertar pie de página
         https://mdbootstrap.com/docs/standard/navigation/footer/examples-and-customization/ -->
+
+        <!-- Remove the container if you want to extend the Footer to full width. -->
+<div class="container my-5">
+    <!-- Footer -->
+    <footer
+            class="text-center text-lg-start text-white"
+            style="background-color: #3e4551"
+            >
+      <!-- Grid container -->
+      <div class="container p-4 pb-0">
+        <!-- Section: Links -->
+        <section class="">
+          <!--Grid row-->
+          <div class="row">
+            <!--Grid column-->
+            <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+              <h5 class="text-uppercase">ACERCA DE TIENDA MODALS</h5>
+  
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Molestiae modi cum ipsam ad, illo possimus laborum ut
+                reiciendis obcaecati. Ducimus, quas. Corrupti, pariatur eaque?
+                Reiciendis assumenda iusto sapiente inventore animi?
+              </p>
+            </div>
+            <!--Grid column-->
+  
+            <!--Grid column-->
+            <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
+              <h5 class="text-uppercase">UBICANOS EN</h5>
+  
+              <ul class="list-unstyled mb-0">
+                <li>
+                  <a href="#!" class="text-white">tiendamodals@gmail.com</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white">Calle #240 San Martin</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white">74-759823</a>
+                </li>
+              </ul>
+            </div>
+            <!--Grid column-->
+  
+            <!--Grid column-->
+            <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
+              <h5 class="text-uppercase">REDES SOCIALES</h5>
+  
+              <ul class="list-unstyled mb-0">
+                <li>
+                  <a href="#!" class="text-white">www.facebook.com</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white">www.instagram.com</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white">www.youtube.com</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!--Grid row-->
+        </section>
+  
+      </div>
+      <!-- Grid container -->
+  
+      <!-- Copyright -->
+      <div
+           class="text-center p-3"
+           style="background-color: rgba(0, 0, 0, 0.2)"
+           >
+        © 2020 Copyright:
+        <a class="text-white" href="https://mdbootstrap.com/"
+           >Aceptado por Ernesto Nicho Cordova</a
+          >
+      </div>
+      <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+  </div>
+  <!-- End of .container -->
     </div>
 
 
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
 
-    
+
 </body>
 
 </html>
