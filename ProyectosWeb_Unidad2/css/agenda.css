@@ -1,32 +1,45 @@
-.datosEntrada{
-    width: 40%;
+.datosEntrada {
+    width: 50%;
     margin: auto;
-    background-color: lightcyan;
+    background-color: honeydew;
     font-family: Arial;
-    padding-left:10px;
+    padding: 10px;
 }
 
-span{
-    width: 100px;
+span {
     display: block;
-    float:left;
-    padding-left: 4px;
+    padding: 4px;
 }
 
-.nom{
-    background-color: darkgrey;
+span.nombre {
+    font-weight: bold;
+    background-color: beige;
 }
 
-.titu{
-    background-color: aqua;
+span.email {
+    background-color: beige;
 }
 
-li{
-    list-style:none;
-    margin-top: 1px;
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
 }
 
-ul{
-    margin:0px;
-    padding-left:0px;
+li.contacto {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.img-izquierda {
+    float: left;
+    margin-right: 10px;
+    width: 250px;
+}
+
+.img-derecha {
+    float: right;
+    margin-left: 10px;
+    width: 250px;
 }

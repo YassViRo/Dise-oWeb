@@ -16,203 +16,139 @@
     <link rel="stylesheet" href="css/misEstilos.css" />
   </head>
   <body>
-    <!-- Navegadores -->
-    <nav class="navbar bg-body-tertiary">
-      <form class="container-fluid justify-content-end">
-        <!-- Cambio en la clase justify-content-start a justify-content-end -->
-        <button
-          class="btn btn-outline-success bg-dark text-white"
-          type="button"
-        >
-          Inicio
-        </button>
-        <button class="btn btn-sm btn-outline-secondary" type="button">
-          Productos
-        </button>
-        <button class="btn btn-sm btn-outline-secondary" type="button">
-          Compras
-        </button>
-        <button class="btn btn-sm btn-outline-secondary" type="button">
-          Proyectos
-        </button>
-        <button class="btn btn-sm btn-outline-secondary" type="button">
-          Nosotros
-        </button>
-      </form>
-    </nav>
-    <!--Fin de navegadores-->
 
 
-    <!-- Encabezado -->
-    <div class="container-fluid">
-      <div class="row align-items-start">
+  <!-- Navegadores -->
+  <nav class="navbar bg-body-tertiary">
+    <form class="container-fluid justify-content-end">
+      <a href="index.html" class="btn btn-sm btn-outline-secondary type="button">Inicio</a>
+      <button class="btn btn-sm btn-outline-secondary" onclick="alertaConstruccion()">Productos</button>
+      <a href="enlace_compras.html" class="btn btn-outline-success bg-dark text-white" type="button">Compras</a>
+      <a href="proyectos.html" class="btn btn-sm btn-outline-secondary">Proyectos</a>
+      <button class="btn btn-sm btn-outline-secondary" onclick="alertaConstruccion()">Nosotros</button>
+    </form>    
+  </nav>
+  <!--Fin de navegadores-->
 
 
-        <div class="col">
-          <div class="container-fluid">
-            <a class="navbar-brand" href="#"><img src="img/logoX.jpg" alt="" style="width:180px; height: 70px;"></a>
-          </div>
-        </div>
 
-
-        <div class="col">
-            <span class="h1 text-uppercase">Electronic SHOP</span>
-        </div>
-
-
-        <div class="col nav justify-content-end">
-            <svg xmlns="http://www.w3.org/2000/svg" style="width:40px; height: 40px;"  fill="currentColor" class="bi bi-cart3" viewBox="0 0 16 16">
-              <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l.84 4.479 9.144-.459L13.89 4H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
-            </svg>
-           
-            <svg xmlns="http://www.w3.org/2000/svg" style="width:40px; height: 40px;" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
-              <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
-              <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
-            </svg>
-        </div>
-
+ <!-- Encabezado -->
+ <div class="container-fluid bg-black">
+  <div class="row align-items-center">
+    <div class="col-6 col-md-4">
+      <div class="container-fluid">
+        <img  class="navbar-brand" src="img/logo.png" style="height: 150px; width: 175px;">
 
       </div>
     </div>
-    <!-- Fin de encabezado -->
 
-
-
-
-
-
-
-
-
-
-    <!-- Cart -->
-    <div class="col-lg-4 d-flex align-items-center justify-content-center mb-4 mx-auto">
-      <!-- insertar un Card -->
-      <!-- Primera imagen -->
-
-
-      <span class="border border-white align-items-center ">
-        <section
-        class="d-flex justify-content-between p-4"
-        style="background-color: #6351ce"
-        >
-        <div class="me-5">
-          <span>Dialogo iten</span>
-        </div>
-        <div>
-          <a href="" class="text-white me-4" style="color: white;">
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-circle" viewBox="0 0 16 16">
-              <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
-            </svg>
-           
-          </a>
-        </div>
-         </section>
-        <div class="row g-0">
-          <div class="col-md-4 d-flex align-items-center">
-              <img src="img/tienda.png" class="img-fluid rounded-start mx-auto d-block"
-                  alt="Reloj" style="width: 100%; height: 150px; object-fit: contain;">
-          </div>
-          <div class="col-md-8">
-              <div class="card-body">
-                  <h5 class="card-title"> Some default"</h5>
-                  <p class="card-text">Dialogo tex</p>
-                  <div class="d-flex justify-content-between align-items-center">
-                      <button type="button" class="btn btn-primary" onclick="addToCart('Reloj FashionTime', 50)">
-                          Cerra Tienda
-                      </button>
-                      <button type="button" class="btn btn-primary" onclick="removeFromCart('Reloj FashionTime')">
-                          Ir a tienda
-                      </button>
-                  </div>
-              </div>
-          </div>
-      </div>
-      </span>
-
-
-   
+    <div class="col-6 col-md-4">
+      <span class="h4 text-uppercase text-white" style="margin-left: -50px;">Electronic SHOP</span>
     </div>
-    <!-- Fin de cart -->
+
+    <div class="col-12 col-md-4 text-right">
+      <div class="d-flex align-items-center justify-content-end text-white">
+        <a href="enlace_compras.html">
+          <svg xmlns="http://www.w3.org/2000/svg" style="width:40px; height: 40px; margin-right: 10px;" fill="currentColor" class="bi bi-cart3" viewBox="0 0 16 16">
+            <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l.84 4.479 9.144-.459L13.89 4H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+          </svg>
+        </a>
+        <a href="#" onclick="alertaConstruccion()">
+          <svg xmlns="http://www.w3.org/2000/svg" style="width:40px; height: 40px; margin-right: 10px;" fill="currentColor" class="bi bi-cart3" viewBox="0 0 16 16">
+            <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+            <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
+          </svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>   
+<!-- Fin de encabezado -->
 
 
-    <!-- Pie de página -->
-    <div class="container my-5">
 
 
 
+<!-- Tienda -->
+<div class="col-lg-4 col-md-6 d-flex align-items-center justify-content-center mb-4 mx-auto border-black">
+  <span class="border border-white align-items-center">
+    <section class="d-flex justify-content-between p-4" style="background-color: #6351ce">
+      <div class="me-5">
+        <span class="text-white">Nuestra tienda</span>
+      </div>
+      <div>
+        <a href="#" class="text-white me-4" style="color: white;">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-circle" viewBox="0 0 16 16">
+            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+          </svg>
+        </a>
+      </div>
+    </section>
+    <div class="row g-0">
+      <div class="col-md-4 d-flex align-items-center">
+        <img src="img/tienda.png" class="img-fluid rounded-start mx-auto d-block" alt="Reloj" style="width: 100%; height: 150px; object-fit: contain;">
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h5 class="card-title">Electronic SHOP</h5>
+          <p class="card-text">Electrodomésticos de calidad para tu hogar.</p>
+          <div class="d-flex justify-content-between align-items-center">
+            <a href="index.html" class="btn btn-primary" onclick="salirTienda()">Cerrar tienda</a>
+            <a href="carrito_compras.html" class="btn btn-primary" onclick="removeFromCart('Reloj FashionTime')">Ir a tienda</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </span>
+</div>
 
-      <!-- Footer -->
-      <footer
-              class="text-center text-lg-start text-white"
-              style="background-color: #1c2331"
-              >
-        <!-- Section: Social media -->
-        <section
-                 class="d-flex justify-content-between p-4"
-                 style="background-color: #6351ce"
-                 >
-        </section>
-        <!-- Sections blue -->
-        <section class="">
-          <div class="container text-center text-md-start mt-5">
-            <!-- Grid row -->
-            <div class="row mt-3">
-              <!-- Grid Acerca de -->
-              <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
-                 
-                  <h6 class="text-uppercase fw-bold">Contactanos</h6>
-                  <hr
-                      class="mb-4 mt-0 d-inline-block mx-auto"
-                      style="width: 60px; background-color: #7c4dff; height: 2px"
-                      />
-                  <p><i class="fas fa-home mr-3"></i> New York, NY 10012, US</p>
-                  <p><i class="fas fa-envelope mr-3"></i> info@example.com</p>
-                  <p><i class="fas fa-phone mr-3"></i> + 01 234 567 88</p>
-                  <p><i class="fas fa-print mr-3"></i> + 01 234 567 89</p>
-                </div>
-              <!-- Grid Redes Sociales -->
- 
- 
-              <div class="col-lg-4 col-md-12 mb-4 mb-md-0">
-                  <h6 class="text-uppercase mb-4">Redes Sociales</h6>
-                  <div class="mt-4">
-                    <!-- Facebook -->
-                    <a type="button" class="btn btn-floating btn-light btn-lg"><i class="fab fa-facebook-f"></i></a>
-                    <!-- Dribbble -->
-                    <a type="button" class="btn btn-floating btn-light btn-lg"><i class="fab fa-dribbble"></i></a>
-                    <!-- Twitter -->
-                    <a type="button" class="btn btn-floating btn-light btn-lg"><i class="fab fa-twitter"></i></a>
-                    <!-- Google + -->
-                    <a type="button" class="btn btn-floating btn-light btn-lg"><i class="fab fa-google-plus-g"></i></a>
-                    <!-- Linkedin -->
-                  </div>
-                </div>
-               <!-- Grid column Mapa -->
- 
- 
-              <div class="col-lg-3 col-md-6 mb-4 mb-md-0 " >
-                  <h6 class="text-uppercase mb-4">Encuentranos aqui</h6>
-                  <div class="rounded-circle bg-white shadow-1-strong d-flex align-items-center justify-content-center mb-4 mx-auto" style="width: 150px; height: 150px;">
-                      <img src="img/encuentranos qui.png" height="70" alt=""
-                           loading="lazy" />
-                   </div>
-       
-                </div>
+<!-- Fin de Tienda -->
+
+
+ <!-- Pie de página -->
+ <footer class="text-center text-lg-start text-white" style="background-color: #1c2331">
+  <div class="container-fluid py-5">
+    <section class="d-flex justify-content-between p-4" style="background-color: #6351ce;"></section>
+    <section class="flex-grow-1">
+      <div class="container text-center text-md-start mt-5">
+        <div class="row mt-3">
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <h6 class="text-uppercase fw-bold">Contáctanos</h6>
+            <p><i class="fas fa-home mr-3"></i> Chiclayo, NT 10012, PE</p>
+            <p><i class="fas fa-envelope mr-3"></i> electronicSHOP@gmail.com</p>
+            <p><i class="fas fa-print mr-3"></i> +51 123 456 789</p>
+          </div>
+          <div class="col-lg-4 col-md-12 mb-4 mb-md-0">
+            <h6 class="text-uppercase mb-4">Redes Sociales</h6>
+            <div class="mt-4">
+              <a href="https://www.facebook.com" type="button" class="btn btn-floating btn-light btn-lg"><img src="img/Facebook.jpg"  style="width: 50px; height: 50px;" alt=""></a>
+              <a href="https://web.whatsapp.com/" type="button" class="btn btn-floating btn-light btn-lg"><img src="img/Whatsapp.jpg"  style="width: 50px; height: 50px;" alt=""></a>
+              <a href="https://www.instagram.com" type="button" class="btn btn-floating btn-light btn-lg"><img src="img/Instagram.jpg"  style="width: 50px; height: 50px;" alt=""></a>
+              <a href="https://www.youtube.com" type="button" class="btn btn-floating btn-light btn-lg"><img src="img/Youtube.jpg"  style="width: 50px; height: 50px;" alt=""></a>
             </div>
           </div>
-        </section>
-        <!-- Copyright -->
-        <div
-             class="text-center p-3"
-             style="background-color: rgba(0, 0, 0, 0.2)"
-             >
-          © 2023 Copyright:
-          <a class="text-white" href="https://mdbootstrap.com/"
-             >Diseño de soware Company</a
-            >
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h6 class="text-uppercase mb-4 text-center">Encuéntranos aquí</h6>
+            <div class="rounded-circle bg-white shadow-1-strong d-flex align-items-center justify-content-center mb-4 mx-auto" style="width: 150px; height: 150px;">
+              <a href="https://www.google.com.pe/maps/place/Los+%C3%81ngeles,+Chiclayo+14011/@-6.778559,-79.8716302,17z/data=!3m1!4b1!4m6!3m5!1s0x904cef069e274785:0x6b00c7cf2b085dc3!8m2!3d-6.7785643!4d-79.8690499!16s%2Fg%2F1tmpx0wc?hl=es-419&entry=ttu">
+                <img src="img/encuentranos_aqui.png" height="70" alt="" loading="lazy" />
+              </a>
+            </div>
+          </div>            
         </div>
- 
+      </div>
+    </section>
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <p>&copy; 2023 Diseño web V & Y</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
     <!-- Fin de pie de página -->
 
 
@@ -222,4 +158,6 @@
       crossorigin="anonymous"
     ></script>
   </body>
+
+  <script src="js/electronic.js"></script>
 </html>
