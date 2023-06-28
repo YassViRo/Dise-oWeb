@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda v2</title>
+    <link rel="stylesheet" href="css/agenda.css">
+</head>
+<body onload="actualizarDatos()">
+    <img src="img/usuario.jpg" alt="Imagen Izquierda" class="img-izquierda">
+    <div class="datosEntrada">
+        <header>
+            <h3>Mi Agenda de contactos</h3>
+            <hr>
+        </header>
+        <form>
+            <span>Nombre: </span>
+            <input type="text" name="nombre" id="nombre" placeholder="Nombre"><br><br>
+            <span>Num celular:</span>
+            <input type="text" name="movil" id="movil" placeholder="movil"><br><br>
+            <span>Email:</span>
+            <input type="email" name="email" id="email" placeholder="Correo electrónico"><br><br>
+        </form>        
+        <input class="btn" type="button" value="Guardar" onclick="guardarDatos()">
+        <input class="btn" type="button" value="Buscar datos" onclick="recuperarDatos()">
+        <input class="btn" type="button" value="Eliminar" onclick="eliminarDatos()">
+        <input class="btn" type="button" value="Eliminar todos" onclick="eliminarTodosDatos()">
+        <hr>
+        <span class="titu">Nombre, celular y email</span>
+        <ul id="contactos"></ul>
+    </div>
+    <img src="img/llamadas.jpg" alt="Imagen Derecha" class="img-derecha">
+    <script src="js/agenda.js"></script>
+</body>
+</html>

@@ -1,0 +1,85 @@
+#imagen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.pacman {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 0;
+  height: 0;
+  font-size: 0;
+  /* Elimina el espacio adicional generado por el tamaño de fuente */
+  border-top: 20px solid yellow;
+  /* Ajusta el tamaño del Pacman */
+  border-right: 20px solid transparent;
+  border-bottom: 20px solid yellow;
+  border-left: 20px solid yellow;
+  border-radius: 50%;
+  animation: animar_boca_pacman 0.5s infinite, animar_pacman 40s infinite;
+}
+
+@keyframes animar_boca_pacman {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(-30deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes animar_pacman {
+  0% {
+    left: 50%;
+    top: 55%;
+  }
+  
+  10% {
+    left: 38rem;
+    top: 32rem;
+  }
+  20% {
+    left: 38rem;
+    top: 37rem;
+  }
+  30% {
+    left: 25rem;
+    top: 37rem;
+  }
+  40% {
+    left: 25rem;
+    top: 43rem;
+  }
+  50% {
+    left: 50%;
+    top: 43rem;
+  }
+  60% {
+    left: 88rem;
+    top: 43rem;
+  }
+  70% {
+    left: 88rem;
+    top: 48rem;
+  }
+  80% {
+    left: 108rem;
+    top: 48rem;
+  }
+  90% {
+    left: 108rem;
+    top: 54rem;
+  }
+  100% {
+    left: 50rem;
+    top: 54rem;
+  }
+}

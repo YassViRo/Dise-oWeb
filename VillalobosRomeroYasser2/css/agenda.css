@@ -1,0 +1,45 @@
+.datosEntrada {
+    width: 50%;
+    margin: auto;
+    background-color: honeydew;
+    font-family: Arial;
+    padding: 10px;
+}
+
+span {
+    display: block;
+    padding: 4px;
+}
+
+span.nombre {
+    font-weight: bold;
+    background-color: beige;
+}
+
+span.email {
+    background-color: beige;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+li.contacto {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.img-izquierda {
+    float: left;
+    margin-right: 10px;
+    width: 250px;
+}
+
+.img-derecha {
+    float: right;
+    margin-left: 10px;
+    width: 250px;
+}
