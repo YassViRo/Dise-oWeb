@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous" />
-  <title>Contáctanos</title>
+  <title>Preguntas frecuentes</title>
   <link rel="stylesheet" href="css/misEstilos.css">
 </head>
 
@@ -87,55 +87,119 @@
 
   <!--Cuerpo de página-->
   <div class="container">
-    <div class="row justify-content-center">
-      <div class="col-md-6">
-        <form id="contactoFormulario">
-          <h3 class="text-center">CONTÁCTANOS</h3>
-  
-          <div class="mb-3">
-            <label for="nombres" class="form-label">Nombres</label>
-            <input type="text" class="form-control" id="nombres" placeholder="Ingrese sus nombres" required>
+    <div class="row justify-content-center mt-4">
+      <div class="col-md-12 text-center">
+        <h2>PREGUNTAS FRECUENTES</h2>
+      </div>
+    </div>
+
+    <div class="row justify-content-center mt-4">
+      <div class="col-md-12 image-container d-flex justify-content-center">
+        <div class="imagen-centro">
+          <a href="#envio">
+            <img src="img/Entrega.png" alt="Entrega" class="img-fluid" style="max-width: 150px; max-height: 150px;">
+          </a>
+          <div class="imagen-subtitulo">Envío</div>
+        </div>
+        <div class="imagen-centro">
+          <a href="#devolucion">
+            <img src="img/Devolución.png" alt="Devolución" class="img-fluid" style="max-width: 220px; max-height: 220px;">
+          </a>
+          <div class="imagen-subtitulo">Devolución</div>
+        </div>
+        <div class="imagen-centro">
+          <a href="#pago">
+            <img src="img/Pago.png" alt="Pago" class="img-fluid" style="max-width: 150px; max-height: 150px;">
+          </a>
+          <div class="imagen-subtitulo">Pago</div>
+        </div>
+        <div class="imagen-centro">
+          <a href="#pedido">
+            <img src="img/Pedido.png" alt="Pedido" class="img-fluid" style="max-width: 150px; max-height: 150px;">
+          </a>
+          <div class="imagen-subtitulo">Pedido</div>
+        </div>
+        <div class="imagen-centro">
+          <a href="#producto">
+            <img src="img/Producto.png" alt="Producto" class="img-fluid" style="max-width: 150px; max-height: 150px;">
+          </a>
+          <div class="imagen-subtitulo">Producto</div>
+        </div>
+        <div class="imagen-centro">
+          <a href="#cuenta">
+            <img src="img/Cuenta.png" alt="Cuenta" class="img-fluid" style="max-width: 150px; max-height: 150px;">
+          </a>
+          <div class="imagen-subtitulo">Cuenta</div>
+        </div>
+        <div class="imagen-centro">
+          <a href="#contacto">
+            <img src="img/Contacto.png" alt="Contacto" class="img-fluid" style="max-width: 150px; max-height: 150px;">
+          </a>
+          <div class="imagen-subtitulo">Contacto</div>
+        </div>
+      </div>
+    </div>
+
+    <br><br><br>
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-12">
+          <div class="jumbotron">
+            <h3 id="envio">Envío</h3>
+            <p>Preguntas y respuestas sobre el envío de productos.</p>
+            <!-- Aquí puedes agregar las preguntas y respuestas sobre el envío -->
           </div>
-  
-          <div class="mb-3">
-            <label for="email" class="form-label">Email</label>
-            <input type="email" class="form-control" id="email" placeholder="Ingrese su email" required>
+        </div>
+        <div class="col-12">
+          <div class="jumbotron">
+            <h3 id="devolucion">Devolución</h3>
+            <p>Preguntas y respuestas sobre la devolución de productos.</p>
+            <!-- Aquí puedes agregar las preguntas y respuestas sobre la devolución -->
           </div>
-  
-          <div class="mb-3">
-            <label for="telefono" class="form-label">Teléfono</label>
-            <input type="tel" class="form-control" id="telefono" placeholder="Ingrese su número de teléfono" required>
+        </div>
+        <div class="col-12">
+          <div class="jumbotron">
+            <h3 id="pago">Pago</h3>
+            <p>Preguntas y respuestas sobre los métodos de pago.</p>
+            <!-- Aquí puedes agregar las preguntas y respuestas sobre el pago -->
           </div>
-  
-          <div class="mb-3">
-            <label for="tipoSolicitud" class="form-label">Tipo de solicitud</label>
-            <select class="form-select" id="tipoSolicitud" required>
-              <option value="">Seleccione...</option>
-              <option value="Consulta">Consulta</option>
-              <option value="Reclamo">Reclamo</option>
-              <option value="Sugerencia">Sugerencia</option>
-            </select>
+        </div>
+        <div class="col-12">
+          <div class="jumbotron">
+            <h3 id="pedido">Pedido</h3>
+            <p>Preguntas y respuestas sobre el proceso de realizar un pedido.</p>
+            <!-- Aquí puedes agregar las preguntas y respuestas sobre el pedido -->
           </div>
-  
-          <div class="mb-3">
-            <label for="descripcion" class="form-label">Descripción</label>
-            <textarea class="form-control" id="descripcion" rows="4" placeholder="Ingrese una descripción" required></textarea>
+        </div>
+        <div class="col-12">
+          <div class="jumbotron">
+            <h3 id="producto">Producto</h3>
+            <p>Preguntas y respuestas sobre los productos disponibles.</p>
+            <!-- Aquí puedes agregar las preguntas y respuestas sobre los productos -->
           </div>
-  
-          <div class="mb-4">
-            <label for="archivo" class="form-label fs-6">Adjuntar archivos</label>
-            <input type="file" id="archivo" class="form-control">
+        </div>
+        <div class="col-12">
+          <div class="jumbotron">
+            <h3 id="cuenta">Cuenta</h3>
+            <p>Preguntas y respuestas sobre la gestión de la cuenta de usuario.</p>
+            <!-- Aquí puedes agregar las preguntas y respuestas sobre la cuenta -->
           </div>
-  
-          <div class="text-center">
-            <button type="submit" class="btn btn-primary">Enviar</button>
+        </div>
+        <div class="col-12">
+          <div class="jumbotron">
+            <h3 id="contacto">Contacto</h3>
+            <p>Preguntas y respuestas sobre cómo contactar con el equipo de soporte.</p>
+            <!-- Aquí puedes agregar las preguntas y respuestas sobre el contacto -->
           </div>
-        </form>
+        </div>
       </div>
     </div>
   </div>
   
-   
+  
+  
+  
   <!--Fin de cuerpo de página-->
   <br>
 
@@ -211,7 +275,6 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous">
     </script>
-    <script src="js/contactanos.js"></script>
 </body>
 
 </html>

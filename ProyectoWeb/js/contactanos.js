@@ -51,7 +51,6 @@ document.getElementById('contactoFormulario').addEventListener('submit', functio
     console.log('Tipo de solicitud:', tipoSolicitud);
     console.log('Descripción:', descripcion);
     console.log('Archivos adjuntos:', adjuntos);
-    // Aquí puedes realizar el envío del formulario o guardar los datos en tu sistema
   
     // Limpiar campos
     document.getElementById('nombres').value = '';

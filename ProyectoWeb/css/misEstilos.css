@@ -12,6 +12,14 @@
     border-top-right-radius: 50px;
     margin-top: 1%;
     margin-bottom: 1%;
-  }
-  
-  
+}
+
+.imagen-centro {
+    text-align: center;
+    margin-right: 20px;
+}
+
+.imagen-subtitulo {
+    margin-top: 10px;
+    font-weight: bold;
+}
