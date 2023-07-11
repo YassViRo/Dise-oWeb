@@ -34,3 +34,4 @@ function guardarDatos(nombre, apellidos, email, contraseña) {
   console.log('Email:', email);
   console.log('Contraseña:', contraseña);
 }
+

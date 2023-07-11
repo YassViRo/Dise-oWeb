@@ -71,3 +71,7 @@ function toggle(elemento) {
     document.getElementById("myModal").style.display = "none";
 }
 
+function mostrarAlerta() {
+    alert("Esta página está en construcción. ¡Pronto estará disponible!");
+  }
+  
