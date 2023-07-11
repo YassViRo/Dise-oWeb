@@ -11,75 +11,76 @@
 </head>
 
 <body>
- <!--Encabezado-->
- <header class="borde">
-  <div class="container-fluid">
-    <div class="row align-items-center">
-      <div class="col-6 col-md-4">
-        <div class="container-fluid">
-          <a href="index.html">
-            <img class="navbar-brand borde-logo" src="img/LOGO - K&M Moda y Accesorios.png" style="height: 300px; width: 300px;">
-          </a>
-        </div>          
-      </div>
-      <div class="col-12 col-md-4">
-        <form class="form-inline">
-          <div class="input-group align-items-center justify-content-between">
-            <input class="form-control form-control-lg" type="search" placeholder="Buscar por estilo, modelos y más"
-              aria-label="Search" style="width: 300px; height: 30px;">
-            <div class="input-group-append">
-              <button class="btn btn-lg" type="submit" style="height: 90px;">
-                <img src="img/Lupa.png" alt="Buscar" style="width: 45px; height: 45px; vertical-align: middle;">
-              </button>
-            </div>
-          </div>
-        </form>
-        <div class="d-flex flex-wrap mt-2">
-          <select class="custom-select mx-2">
-            <option selected>Hombre</option>
-            <option>Ropa</option>
-            <option>Calzado</option>
-            <option>Destacados</option>
-          </select>
-          <select class="custom-select mx-2">
-            <option selected>Mujer</option>
-            <option>Ropa</option>
-            <option>Calzado</option>
-            <option>Destacados</option>
-          </select>
-          <select class="custom-select mx-2">
-            <option selected>Niño</option>
-            <option>Ropa</option>
-            <option>Calzado</option>
-            <option>Destacados</option>
-          </select>
-          <select class="custom-select mx-2">
-            <option selected>Accesorios</option>
-            <option>Billeteras</option>
-            <option>Correas</option>
-            <option>Maletas</option>
-            <option>Medias</option>
-            <option>Mochilas</option>
-            <option>Gorros</option>
-          </select>
+  <!--Encabezado-->
+  <header class="borde">
+    <div class="container-fluid">
+      <div class="row align-items-center">
+        <div class="col-6 col-md-4">
+          <div class="container-fluid">
+            <a href="index.html">
+              <img class="navbar-brand borde-logo" src="img/LOGO - K&M Moda y Accesorios.png" style="height: 300px; width: 300px;">
+            </a>
+          </div>          
         </div>
-      </div>
-      <div class="col-12 col-md-4 text-right">
-        <div class="d-flex align-items-center justify-content-end text-white">
-          <button class="btn btn-link" onclick="window.location.href='enlace_compras.html'">
-            <img class="navbar-brand text" src="img/Carrito.png"
-              style="width:60px; height: 60px; margin-right: 10px;">
-          </button>
-          <button class="btn btn-link" onclick="window.location.href='Opcion_Iniciar_Sesion.html'">
-            <img class="navbar-brand text" src="img/Usuario.png"
-              style="width:60px; height: 60px; margin-right: 50px;">
-          </button>
+        <div class="col-12 col-md-4">
+          <form class="form-inline">
+            <div class="input-group align-items-center justify-content-between">
+              <input class="form-control form-control-lg" type="search" placeholder="Buscar por estilo, modelos y más"
+                aria-label="Search" style="width: 300px; height: 30px;">
+              <div class="input-group-append">
+                <button class="btn btn-lg" type="submit" style="height: 90px;">
+                  <img src="img/Lupa.png" alt="Buscar" style="width: 45px; height: 45px; vertical-align: middle;">
+                </button>
+              </div>
+            </div>
+          </form>
+          <div class="d-flex flex-wrap mt-2">
+            <select class="custom-select mx-2" onchange="redirigirPagina(this.value)">
+              <option value="hombre">Hombre</option>
+              <option value="ropa">Ropa</option>
+              <option value="calzado">Calzado</option>
+              <option value="destacados">Destacados</option>
+            </select>
+            <select class="custom-select mx-2">
+              <option selected>Mujer</option>
+              <option>Ropa</option>
+              <option>Calzado</option>
+              <option>Destacados</option>
+            </select>
+            <select class="custom-select mx-2">
+              <option selected>Niño</option>
+              <option>Ropa</option>
+              <option>Calzado</option>
+              <option>Destacados</option>
+            </select>
+            <select class="custom-select mx-2">
+              <option selected>Accesorios</option>
+              <option>Billeteras</option>
+              <option>Correas</option>
+              <option>Maletas</option>
+              <option>Medias</option>
+              <option>Mochilas</option>
+              <option>Gorros</option>
+            </select>
+          </div>
+        </div>
+        <div class="col-12 col-md-4 text-right">
+          <div class="d-flex align-items-center justify-content-end text-white">
+            <button class="btn btn-link" onclick="window.location.href='Carrito_Compras.html'">
+              <img class="navbar-brand text" src="img/Carrito.png"
+                style="width:60px; height: 60px; margin-right: 10px;">
+            </button>
+            <button class="btn btn-link" onclick="window.location.href='Opcion_Iniciar_Sesion.html'">
+              <img class="navbar-brand text" src="img/Usuario.png"
+                style="width:60px; height: 60px; margin-right: 50px;">
+            </button>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-</header>
-<!--Fin del encabezado-->
+  </header>
+  <!--Fin del encabezado-->
+
   <br>
 
 
@@ -247,6 +248,7 @@
     </script>
 
     <script src="js/envío.js"></script>
+    <script src="js/combobox.js"></script>
 </body>
 
 </html>

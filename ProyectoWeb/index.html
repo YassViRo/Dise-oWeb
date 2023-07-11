@@ -35,11 +35,11 @@
             </div>
           </form>
           <div class="d-flex flex-wrap mt-2">
-            <select class="custom-select mx-2">
-              <option selected>Hombre</option>
-              <option>Ropa</option>
-              <option>Calzado</option>
-              <option>Destacados</option>
+            <select class="custom-select mx-2" onchange="redirigirPagina(this.value)">
+              <option value="hombre">Hombre</option>
+              <option value="ropa">Ropa</option>
+              <option value="calzado">Calzado</option>
+              <option value="destacados">Destacados</option>
             </select>
             <select class="custom-select mx-2">
               <option selected>Mujer</option>
@@ -66,7 +66,7 @@
         </div>
         <div class="col-12 col-md-4 text-right">
           <div class="d-flex align-items-center justify-content-end text-white">
-            <button class="btn btn-link" onclick="window.location.href='enlace_compras.html'">
+            <button class="btn btn-link" onclick="window.location.href='Carrito_Compras.html'">
               <img class="navbar-brand text" src="img/Carrito.png"
                 style="width:60px; height: 60px; margin-right: 10px;">
             </button>
@@ -103,11 +103,13 @@
            <div class="carousel-products">
             <div class="producto"> 
               <div class="cont-img">
-                <img class="item-image" src="https://drive.google.com/uc?export=download&id=1aMnV2fUMAy9Wxhf-hMxzoCAJ7WVvHDwi" alt="">
+                <a href="Hombre_Ropa_Chaleco.html">
+                  <img class="item-image" src="https://drive.google.com/uc?export=download&id=1Z7ITp1DszBz0PeHV9m_FaQiKKb5yMQV0" alt="">
+                </a>
               </div>
               <br>
               <div class="cont-info">
-                <h3 class="title"><a href="detalle.html">Camisa Manga Larga Hombre Billabong</a></h3>
+                <h3 class="title"><a href="detalle.html">Chaleco acolchado - plomo - caballero</a></h3>
                 <p class="s-codigo">COGIGO: <span class="codigo">08927</span></p>
                 <p class="s-stock">STOCK: <span class="stock">15</span></p>      
                 <div class="producto-price">
@@ -521,6 +523,7 @@
     integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous">
     </script>
     <script src="js/main.js"></script>
+    <script src="js/combobox.js"></script>
  
    <script src="https://kit.fontawesome.com/0ea696cd02.js" crossorigin="anonymous"></script>
 </body>

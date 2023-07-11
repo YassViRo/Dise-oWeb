@@ -70,3 +70,4 @@ function toggle(elemento) {
     (elemento.value == "Cerrar")
     document.getElementById("myModal").style.display = "none";
 }
+
